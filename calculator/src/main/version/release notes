@@ -1,0 +1,175 @@
+====== KEY =========DESC==========================================================================
+====    #  ====  Breaks back-compatibility  =====
+====    !  ====  Feature or enhancemnet     =====
+====    -  ====  Bug-fix                    =====
+====	+  ====  Logical refactring that may not affect Userv experience or graphics or feature details yet code has been changed
+Version "1.0.1" : Released at "YYYY-MM-DD" by <Developer Name> - <Developer Email> Released  to <QC/Customer/Store>
+===================================================================================================
+Version <1.0.29.10> Released at <25-04-2020> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds : integrate Valu.
+- mageds : integrate Mobile wallet payment (QR,R2P,Wallets)
+- mageds : add signature to bill upload request.
+===================================================================================================
+Version <1.5.29.6> Released at <30-05-2021> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+-Maged : fix card expiry issue.
+===================================================================================================
+Version <1.4.29.6> Released at <18-05-2021> by <Mina Nabil> <Mina.Nabil@fawry.com>
+===================================================================================================
+-Mina : add SkipReceipt flag to user.
+-Mina : Add *allowedPaymentMethod* key incase integrator choose preferred method and add it to singature as well.
+===================================================================================================
+Version <1.4.29.5> Released at <10-05-2021> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds : fix fees calculation issue
+===================================================================================================
+Version <1.0.29.5> Released at <20-09-2020> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds :o	New callback for allowed payment methods before enter SDK.
+- mageds :o	New init method with selected payment method when entering SDK.
+- mageds :o	Navigate to confirmation if selected payment method (Fawry_Kiosk).
+- mageds :o	Navigate to payment to enter card data without showing select payment method view if selected payment method (Credit_Card).
+- mageds :o	Customize app UI with 4 main colors and any client will override these colors and set his own colors.
+- mageds :o	add proguard config.
+===================================================================================================
+Version <1.0.29.4> Released at <15-09-2020> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds : make Gradle 29.
+- mageds : init installments and coupons.
+===================================================================================================
+Version <1.0.29.3> Released at <25-06-2020> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds : coupon validation, billUpload with coupon and billUpload with Transaction discount.
+===================================================================================================
+Version <1.0.29.2> Released at <18-06-2020> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds : fix invalid payment error.
+===================================================================================================
+Version <1.0.29.1> Released at <14-06-2020> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds : make all amount views with 2 decimal.
+===================================================================================================
+Version <1.0.29> Released at <04-05-2020> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds : add percentage fees calculations.
+===================================================================================================
+Version <1.0.28> Released at <21-04-2020> by <Maged Soham> <maged.soham@fawry.com>
+===================================================================================================
+- mageds : fix webview.
+===================================================================================================
+Version <1.0.24> Released at <28-09-2019> by <Mina Nabil> <Mina.Nabil@Fawry.com>
+===================================================================================================
+- minan : Fix issue when redirect to migs to prevent redierct to payment reciept.
+- minan : Fix issue when success from migs to make annonymous pay without duplicate request.
+- minan : Fix issue in case of annonymous to show reference bill number in reciept.
+
+===================================================================================================
+Version <1.0.23> Released at <29-07-2019> by <Mina Nabil> <Mina.Nabil@Fawry.com>
+===================================================================================================
+- minan : Add new callbacks when in reciept fragment - These will be fired regardless of close action fire or not
+    void paymentOperationSuccess(String trxIID, Object customParams);
+    void paymentOperationFailure(String errorMessage, Object customParams);
+===================================================================================================
+Version <1.0.22> Released at <1-07-2019> by <Mina Nabil> <Mina.Nabil@Fawry.com>
+===================================================================================================
+- minan : Fix missing billing account in call back to host app.
+- minan : set minimum android version to 18
+===================================================================================================
+Version <1.0.18> Released at <29-03-2018> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: disable logging.
+===================================================================================================
+Version <1.0.17> Released at <09-03-2018> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: adding merchant reference number as a parameter in the initialization.
+-ahmeda: adding server url as a parameter in the initialization.
+===================================================================================================
+Version <1.0.16> Released at <26-02-2018> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: adding the merchant reference numhber to the bill upload request.
+-ahmeda: make the plugin connecting to the public url.
+===================================================================================================
+Version <1.0.15> Released at <21-01-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: validate item prices against the negative values.
+===================================================================================================
+Version <1.0.14> Released at <17-01-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: FARMA-7472 Payment plugin APP - change cursor color to blue on order to match the app theme
+-ahmeda: fix FARMA-7459 Android: SDK:Init payment plugin:"mobile number" field does not accept international mobile starts with "+2" or "002"
+-ahmeda: FARMA-7471 Card Tokenization : user should not be able to click on @fawry button without initialize the request
+===================================================================================================
+Version <1.0.13> Released at <16-01-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: bug fix and enhancements.
+===================================================================================================
+Version <1.0.12> Released at <15-01-2017> by <Fawry> <Fawry>
+===================================================================================================
+!ahmeda: implementing save card.
+===================================================================================================
+===================================================================================================
+Version <1.0.11> Released at <29-11-2017> by <Fawry> <Fawry>
+===================================================================================================
+!ahmeda: implementing save card.
+===================================================================================================
+Version <1.0.10> Released at <29-11-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: FARMA-6725 Change strings in order details
+===================================================================================================
+Version <1.0.9> Released at <09-11-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: FARMA-6243 [Fawry/Android/Without Shipping/Pay with Credit Card] Put a hint (Place holder) with the date so month 2 numbers and year four numbers exp: 12/1992
+-ahmeda: FARMA-6725 Change strings in order details
+===================================================================================================
+Version <1.0.8> Released at <08-11-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: FARMA-6227 [Fawry/HTML/Payment Screen] Change the title to "Shipping", check the attached screenshot + The underlines under the credentials needs to be thin.
+-ahmeda: FARMA-6706 Move Buttons up on shipping and confirmation screen
+-ahmeda: FARMA-6224 [Fawry Plugin/HTML/Login Screen] Change the title "Customer Data" to "Login"
+-ahmeda: FARMA-6567 show confirmation alert after user click on cancel button in all screens
+===================================================================================================
+Version <1.0.7> Released at <06-11-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: FARMA-6543 in app start change button name from "init" to "Continue".
+-ahmeda: FARMA-6535 change validation message in all screens
+-ahmeda: FARMA-6534 [Shipping Info] cannot scroll up and down in shipping info screen
+-ahmeda: FARMA-6539 [Receipt] Receipt screen issues
+-ahmeda: FARMA-6537 [Payment] Payment method screen
+-ahmeda: FARMA-6230 [Fawry/HTML/Payment Screen] "Receiver" missing validation as it accept signs instead of characters
+-ahmeda: FARMA-6542 [Credit card] change error message after adding invalid credit card.
+-ahmeda: FARMA-6538 [Confirmation] confirmation screen issues
+-ahmeda: FARMA-6540 [Card details] CVV field should be accept digits only
+-ahmeda: FARMA-6541 [Card details] add validation on expiry date filed, it accepts old date
+-ahmeda: FARMA-6536 Payment screen issues
+-ahmeda: FARMA-6545 English text appears in some screens using Arabic version
+===================================================================================================
+Version <1.0.6> Released at <17-10-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: fix paying with credit card.
+===================================================================================================
+Version <1.0.5> Released at <03-10-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: fix issue related to the costs in receipt screen.
+===================================================================================================
+Version <1.0.4> Released at <28-09-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: add option to connect to the production server.
+===================================================================================================
+Version <1.0.3> Released at <28-09-2017> by <Fawry> <Fawry>
+===================================================================================================
+-ahmeda: fix round one issues.
+===================================================================================================
+Version <1.0.2> Released at <24-09-2017> by <Fawry> <Fawry>
+===================================================================================================
+!ahmeda: simulate the app interfacing.
+!ahmeda: integrating with migs.
+===================================================================================================
+Version <1.0.1> Released at <24-09-2017> by <Fawry> <Fawry>
+===================================================================================================
+!ahmeda: adding error handling.
+===================================================================================================
+Version <1.0.0> Released at <20-09-2017> by <Fawry> <Fawry>
+===================================================================================================
+!ahmeda: first release.
+===================================================================================================

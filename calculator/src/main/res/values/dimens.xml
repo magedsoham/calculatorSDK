@@ -1,2 +1,9 @@
 <resources>
+    <dimen name="marign_20">20dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="button_width_dp">50dp</dimen>
+    <dimen name="button_height_dp">50dp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
 </resources>

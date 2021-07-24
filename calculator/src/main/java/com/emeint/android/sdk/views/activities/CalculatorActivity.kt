@@ -8,22 +8,22 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.emeint.android.sdk.databinding.ActivityBaseBinding
+import com.emeint.android.sdk.databinding.ActivityCalculatorBinding
 import java.math.BigDecimal
 import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols
 import java.util.*
 
 
-class BaseActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityBaseBinding
+class CalculatorActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityCalculatorBinding
 
     private var fullText: String = ""
     private var decimalClicked: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityBaseBinding.inflate(layoutInflater)
+        binding = ActivityCalculatorBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initViews()
     }

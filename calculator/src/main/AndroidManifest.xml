@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.emeint.android.sdk.views.activities.BaseActivity"
+            android:name="com.emeint.android.sdk.views.activities.CalculatorActivity"
             android:configChanges="orientation|screenSize|locale|keyboardHidden"
             android:label="BaseActivity"
             android:theme="@style/AppTheme"

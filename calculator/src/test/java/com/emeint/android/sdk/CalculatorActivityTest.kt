@@ -1,7 +1,7 @@
 package com.emeint.android.sdk
 
 
-import com.emeint.android.sdk.views.activities.BaseActivity
+import com.emeint.android.sdk.views.activities.CalculatorActivity
 
 import org.junit.Rule
 import org.junit.Test
@@ -17,11 +17,11 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 
 @RunWith(AndroidJUnit4::class)
-class BaseActivityTest {
+class CalculatorActivityTest {
 
     @Rule
-    var activityRule: ActivityScenarioRule<BaseActivity> =
-        ActivityScenarioRule(BaseActivity::class.java)
+    var activityRule: ActivityScenarioRule<CalculatorActivity> =
+        ActivityScenarioRule(CalculatorActivity::class.java)
 
     @Test
     fun numbersWithDecimals() {

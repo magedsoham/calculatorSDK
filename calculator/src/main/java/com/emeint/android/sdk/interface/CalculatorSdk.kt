@@ -6,6 +6,7 @@ import android.content.Intent
 import com.emeint.android.sdk.views.activities.BaseActivity
 
 object CalculatorSdk {
+
     fun startPaymentActivity(ctn: Context?) {
         if (ctn != null) {
             val intent = Intent(ctn, BaseActivity::class.java)

@@ -12,7 +12,6 @@
             android:name="com.emeint.android.sdk.views.activities.BaseActivity"
             android:configChanges="orientation|screenSize|locale|keyboardHidden"
             android:label="BaseActivity"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
     </application>

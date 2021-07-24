@@ -13,8 +13,19 @@
 
         <item name="android:textColorSecondaryInverse">@android:color/white</item>
 
-        <item name="android:typeface">serif</item>
+        <item name="android:typeface">sans</item>
         <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textColor">@drawable/text_selector</item>
     </style>
 
 

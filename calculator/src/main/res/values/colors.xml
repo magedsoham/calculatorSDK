@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources />
+<resources >
+    <color name="palette_white">#FFFFFF</color>
+    <color name="palette_blue">#4936F4</color>
+    <color name="palette_baby_blue">#51B4C8FA</color>
+    <color name="palette_grey">#D2E4E9</color>
+</resources>
